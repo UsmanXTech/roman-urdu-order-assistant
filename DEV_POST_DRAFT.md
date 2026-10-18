@@ -1,7 +1,7 @@
 <!--
 PUBLISHING CHECKLIST — ye notes post ka hissa NAHI hain, publish se pehle delete kar dena:
 1. DEV editor me sidebar me ye 2 tags lagana (required): devchallenge, hf26challenge
-2. [REPO_URL] ki jagah GitHub repo ka link — apni line par paste karne se DEV repo auto-embed kar dega
+2. https://github.com/UsmanXTech/roman-urdu-order-assistant ki jagah GitHub repo ka link — apni line par paste karne se DEV repo auto-embed kar dega
 3. [RENDER_URL] ki jagah Render wali live demo link (deploy ke baad)
 4. Deadline: Monday Oct 19, 11:59 AM PKT (Oct 18, 11:59 PM PDT) — raat ko hi publish kar dena safe rahega
 5. Agar Render deploy deadline tak live na ho sake to Demo section me 2-min ki screen recording laga dena — template "deployed link OR video demo" mangta hai
@@ -54,7 +54,7 @@ nahi hoga."
 Ya locally try karo:
 
 ```bash
-git clone [REPO_URL] && cd roman-urdu-order-assistant
+git clone https://github.com/UsmanXTech/roman-urdu-order-assistant && cd roman-urdu-order-assistant
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python -m uvicorn app:app --port 8000
@@ -67,7 +67,7 @@ otherwise the offline engine answers — check `/api/status` to see which.
 
 ## Code
 
-[REPO_URL]
+https://github.com/UsmanXTech/roman-urdu-order-assistant
 
 Full source is open: Python + FastAPI backend, vanilla-JS chat UI, a
 `catalog.json` any shop owner can edit without touching code, and orders
@@ -160,4 +160,4 @@ policy. If it can't survive my shop's WhatsApp rush, it doesn't ship.
 
 *Built with open weights and a free-tier deploy because the sellers this is for
 can't afford anything else. If you run a small shop — or know someone who does
-— I'd love to hear what would make this actually useful. Repo: [REPO_URL]*
+— I'd love to hear what would make this actually useful. Repo: https://github.com/UsmanXTech/roman-urdu-order-assistant*
